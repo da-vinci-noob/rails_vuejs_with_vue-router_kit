@@ -1,0 +1,5 @@
+#rails webpacker:install:vue
+rails new self_rails_vuejs --database=postgresql --webpack=vue
+
+rails db:create
+rails db:migrate
